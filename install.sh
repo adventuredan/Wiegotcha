@@ -115,7 +115,7 @@ echo 'Wiegotcha' > /etc/hostname
 #Insatlling WiringPi
 echo "[*] Installing WiringPi."
 git clone https://github.com/WiringPi/WiringPi.git
-cd wiringPi
+cd wiringPiD
 ./build
 cd ~/
 
