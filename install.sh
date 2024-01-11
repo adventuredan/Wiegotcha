@@ -114,7 +114,7 @@ echo 'Wiegotcha' > /etc/hostname
 
 #Insatlling WiringPi
 echo "[*] Installing WiringPi."
-git clone git://git.drogon.net/wiringPi 
+git clone https://github.com/WiringPi
 cd wiringPi
 ./build
 cd ~/
